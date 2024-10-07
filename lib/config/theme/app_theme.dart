@@ -12,8 +12,10 @@ class AppTheme {
       useMaterial3: true,
       colorScheme: ColorScheme.fromSeed(
         seedColor: primaryColor ?? Colors.deepPurple,
-        brightness: Brightness.light,
+        brightness: Brightness.dark,
+        // primary: primaryColor ?? Colors.deepPurple,
       ),
+      // colorSchemeSeed: primaryColor ?? Colors.deepPurple,
       // primaryColor: Colors.deepPurple,
       // scaffoldBackgroundColor: Colors.white,
       // appBarTheme: const AppBarTheme(
